@@ -12,7 +12,7 @@ const Person = function (firstName, birthYear) {
 };
 
 const jonas = new Person('Jonas', 1991);
-console.log(jonas);
+//console.log(jonas);
 
 //1. New object is created
 //2. Function is called, this = {}
@@ -21,4 +21,4 @@ console.log(jonas);
 
 const matilda = new Person('Matilda', 2017);
 const jack = new Person('Jack', 1975);
-console.log(matilda, jack);
+//console.log(matilda, jack);
